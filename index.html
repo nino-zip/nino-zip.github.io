@@ -1,33 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>nino.zip</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="nino.zip – Solo iOS Developer Portfolio">
+  <title>nino.zip – iOS Developer</title>
   <style>
-    body { font-family: -apple-system, sans-serif; padding: 2rem; max-width: 600px; margin: auto; }
-    h1 { color: #6a0dad; }
-    a { color: #6a0dad; text-decoration: none; }
+    :root {
+      --brand-orange: #f58025;
+      --text-dark: #222;
+      --text-light: #555;
+      --bg-light: #fff;
+      --font: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font);
+      background: var(--bg-light);
+      color: var(--text-dark);
+      padding: 2rem;
+      max-width: 720px;
+      margin-inline: auto;
+    }
+
+    .profile-img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid var(--brand-orange);
+      display: block;
+      margin: 0 auto 1rem;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      color: var(--brand-orange);
+      font-weight: bold;
+    }
+
+    .section {
+      margin-top: 2rem;
+    }
+
+    .link-list a {
+      display: block;
+      margin: 0.5rem 0;
+      color: var(--brand-orange);
+      text-decoration: none;
+    }
+
+    .link-list a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1>👋 Hi! I'm Nino</h1>
-  <p>Indie iOS developer building gamified productivity apps like <strong>Cansino</strong> and <strong>Pomodoer</strong>.</p>
+  <img src="profile.jpg" alt="nino.zip profile" class="profile-img">
+  <h1>Hey! I'm <span class="highlight">nino.zip</span> 👋</h1>
 
-  <h2>📱 Apps</h2>
-  <ul>
-    <li><a href="https://apps.apple.com/app/id6751437279">Cansino</a></li>
-  </ul>
+  <p>
+    I'm a <strong>solo iOS developer</strong> building side projects after work (yes, like a real-life Swift-loving vigilante).
+    I make apps that solves <em>my own problems</em>, and hopefully yours too — all for fun, and a love for development ✨
+  </p>
 
-  <h2>📄 Legal Docs</h2>
-  <ul>
-    <li><a href="/cansino-legal/">Cansino Legal Info</a></li>
-    <li><a href="/app-ads.txt">app-ads.txt</a> (for AdMob)</li>
-  </ul>
+  <p>
+    I've been in tech for <strong>5+ years</strong>, and what really makes my heart beat faster (besides coffee) is great UI, intuitive UX,
+    and apps that make people smile. These are my first indie apps — so if something breaks, please be patient... I'm probably
+    fixing it while panic-googling. 😅
+  </p>
 
-  <h2>📸 Social</h2>
-  <ul>
-    <li><a href="https://instagram.com/nino.zip94">Instagram</a></li>
-  </ul>
+  <div class="section">
+    <h2>📱 Apps & Legal</h2>
+    <div class="link-list">
+      <a href="cansino-legal/">📄 Legal info for Cansino</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📬 Get in touch</h2>
+    <p>
+      Got feedback? Found a bug? Want to send memes? I'm all ears.  
+      <br>Find me on <strong>Instagram</strong> @nino.zip94 or reach out via the support links in my apps.
+    </p>
+  </div>
 </body>
 </html>
