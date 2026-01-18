@@ -35,4 +35,4 @@ This is my playground, so bear with me if something breaks (it probably will �
 
 ---
 
-### © 2025 nino.zip — Made with love (and too much coffee ☕)
+### © 2026 nino.zip — Made with love (and too much coffee ☕)
