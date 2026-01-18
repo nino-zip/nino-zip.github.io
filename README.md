@@ -24,6 +24,7 @@ This is my playground, so bear with me if something breaks (it probably will �
 
 - [`app-ads.txt`](./app-ads.txt) (for AdMob verification)  
 - [Cansino – Legal documents](./cansino-legal/)
+- [Opero – Legal documents](./opero-legal/)
 
 ---
 
