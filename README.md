@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="profile.jpg" alt="nino.zip profile image" width="120" />
+  <img src="profile.png" alt="nino.zip profile image" width="120" />
 </p>
 
 <h1 align="center">👋 Hey! I'm <strong>nino.zip</strong></h1>
